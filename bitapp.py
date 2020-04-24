@@ -50,7 +50,7 @@ def main():
                     tem.plot(kind='line',figsize = (15,10)).set_yscale('linear')
                     plt.grid(True)
                     plt.legend(loc=2, prop={'size': 18})
-                    plt.title('Situação Santa Cantarina Escala Logarítimica',fontsize=24)
+                    plt.title('Situação Santa Cantarina Escala Linear',fontsize=24)
                     st.pyplot()
                     
                 elif st.checkbox('Grafíco Logarítimico'):
